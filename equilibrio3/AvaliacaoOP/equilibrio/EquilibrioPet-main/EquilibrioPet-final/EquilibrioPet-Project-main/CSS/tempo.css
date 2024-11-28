@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+:root{
+    --cor-primaria:#09434b;
+    --cor-secundaria:#6dc3c4;
+    --cor-tercearia:#771d32;
+    --cor-neutra: #fffafa;
+    --cor-bloco:#0087a6;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', 'Inter', sans-serif;
+
+}
+
+.sectionTempo{
+    display: flex;
+    justify-content: center;
+    border: 3px solid var(--cor-tercearia);
+    border-radius: 7px;
+    margin: 2rem;
+
+}
+
+.sectionTempo ul{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.sectionTempo ul li{
+    list-style: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.sectionTempo ul li img{
+    width: 6rem;
+}
